@@ -18,8 +18,8 @@
 
     --gold: #d97706;             /* Oro visible en fondo claro */
     --gold-bg: #fef3c7;
-    --silver: #475569;           /* Plata visible en fondo claro */
-    --silver-bg: #f1f5f9;
+    --silver: #1e3a8a;           /* Azul marino para el 2do lugar */
+    --silver-bg: #dbeafe;
     --bronze: #c2410c;           /* Bronce visible en fondo claro */
     --bronze-bg: #ffedd5;
   }
@@ -29,7 +29,6 @@
 
   body {
     background-color: var(--bg);
-    /* Fondo limpio con destello de luz acuática */
     background-image: 
       radial-gradient(circle at 50% 0%, #7dd3fc 0%, transparent 60%),
       radial-gradient(circle at 100% 100%, #bae6fd 0%, transparent 40%);
@@ -212,7 +211,8 @@
   }
 
   .pod-1 .pod-bar { background: linear-gradient(180deg, #facc15 0%, #eab308 100%); height: 170px; }
-  .pod-2 .pod-bar { background: linear-gradient(180deg, #cbd5e1 0%, #94a3b8 100%); height: 125px; }
+  /* 2do Lugar: Azul Marino */
+  .pod-2 .pod-bar { background: linear-gradient(180deg, #2563eb 0%, #1e3a8a 100%); height: 125px; }
   .pod-3 .pod-bar { background: linear-gradient(180deg, #fb923c 0%, #ea580c 100%); height: 95px; }
 
   .pod-2 { order: 1; }
